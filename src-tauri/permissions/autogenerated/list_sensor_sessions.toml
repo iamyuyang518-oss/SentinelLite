@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-list-sensor-sessions"
+description = "Enables the list_sensor_sessions command without any pre-configured scope."
+commands.allow = ["list_sensor_sessions"]
+
+[[permission]]
+identifier = "deny-list-sensor-sessions"
+description = "Denies the list_sensor_sessions command without any pre-configured scope."
+commands.deny = ["list_sensor_sessions"]

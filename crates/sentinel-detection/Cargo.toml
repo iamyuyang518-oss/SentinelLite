@@ -1,0 +1,18 @@
+[package]
+name = "sentinel-detection"
+description = "Explainable process behavior analysis for SentinelLite"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+publish.workspace = true
+
+[lib]
+name = "sentinel_detection"
+path = "src/lib.rs"
+
+[dependencies]
+sentinel-events = { path = "../sentinel-events" }
+chrono.workspace = true
+serde.workspace = true

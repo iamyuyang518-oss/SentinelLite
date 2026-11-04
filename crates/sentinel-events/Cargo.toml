@@ -1,0 +1,20 @@
+[package]
+name = "sentinel-events"
+description = "Shared normalized process event model for SentinelLite"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+publish.workspace = true
+
+[lib]
+name = "sentinel_events"
+path = "src/lib.rs"
+
+[dependencies]
+chrono.workspace = true
+serde.workspace = true
+
+[dev-dependencies]
+serde_json.workspace = true

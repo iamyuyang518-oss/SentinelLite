@@ -1,0 +1,7299 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:fe7901e8-d1d1-5d4c-a91e-b30fb7289bd9",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-02T14:59:56Z",
+    "tools": [
+      {
+        "vendor": "SentinelLite",
+        "name": "generate-compliance.py",
+        "version": "0.1.0"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "bom-ref": "app:sentinel-lite@0.1.0",
+      "name": "sentinel-lite",
+      "version": "0.1.0",
+      "purl": "pkg:cargo/sentinel-lite@0.1.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "sentinel:scope",
+          "value": "historical-binary-build-record-not-distributed"
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "sentinel:sbomScope",
+        "value": "historical-binary-composition-upper-bound"
+      },
+      {
+        "name": "sentinel:source",
+        "value": "cargo tree normal graph for x86_64-pc-windows-msvc + npm production packages"
+      },
+      {
+        "name": "sentinel:notes",
+        "value": "Historical binary build record only; not part of the SentinelLite 0.1.0 source-only release and not a downloadable asset list. Crate-level upper bound, not a symbol-level linker proof. npm entries are production candidates; Vite may tree-shake."
+      },
+      {
+        "name": "sentinel:appSha256",
+        "value": "0fc65ff304d9e89a85c1e7c0b145d9210fa268dce44c06350df0267fd1b483be"
+      },
+      {
+        "name": "sentinel:installerSha256",
+        "value": "2cb65812c71980dd9d127f3209b03c79f14ebfe2a6915cdfb8f26596959439df"
+      },
+      {
+        "name": "sentinel:appSize",
+        "value": "8480256"
+      },
+      {
+        "name": "sentinel:installerSize",
+        "value": "2535872"
+      },
+      {
+        "name": "sentinel:releaseScope",
+        "value": "historical-only; not part of the source-only release"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/adler2@2.0.1",
+      "name": "adler2",
+      "version": "2.0.1",
+      "purl": "pkg:cargo/adler2@2.0.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "0BSD OR MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/aho-corasick@1.1.5",
+      "name": "aho-corasick",
+      "version": "1.1.5",
+      "purl": "pkg:cargo/aho-corasick@1.1.5",
+      "licenses": [
+        {
+          "license": {
+            "name": "Unlicense OR MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/alloc-no-stdlib@3.0.0",
+      "name": "alloc-no-stdlib",
+      "version": "3.0.0",
+      "purl": "pkg:cargo/alloc-no-stdlib@3.0.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/alloc-stdlib@0.3.0",
+      "name": "alloc-stdlib",
+      "version": "0.3.0",
+      "purl": "pkg:cargo/alloc-stdlib@0.3.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/anyhow@1.0.104",
+      "name": "anyhow",
+      "version": "1.0.104",
+      "purl": "pkg:cargo/anyhow@1.0.104",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/base64@0.22.1",
+      "name": "base64",
+      "version": "0.22.1",
+      "purl": "pkg:cargo/base64@0.22.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/base64@0.23.1",
+      "name": "base64",
+      "version": "0.23.1",
+      "purl": "pkg:cargo/base64@0.23.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/bit-set@0.8.0",
+      "name": "bit-set",
+      "version": "0.8.0",
+      "purl": "pkg:cargo/bit-set@0.8.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0 OR MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/bit-vec@0.8.0",
+      "name": "bit-vec",
+      "version": "0.8.0",
+      "purl": "pkg:cargo/bit-vec@0.8.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0 OR MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/bitflags@2.13.2",
+      "name": "bitflags",
+      "version": "2.13.2",
+      "purl": "pkg:cargo/bitflags@2.13.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/block-buffer@0.10.4",
+      "name": "block-buffer",
+      "version": "0.10.4",
+      "purl": "pkg:cargo/block-buffer@0.10.4",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/brotli-decompressor@6.2.0",
+      "name": "brotli-decompressor",
+      "version": "6.2.0",
+      "purl": "pkg:cargo/brotli-decompressor@6.2.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause/MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/brotli@9.1.1",
+      "name": "brotli",
+      "version": "9.1.1",
+      "purl": "pkg:cargo/brotli@9.1.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause AND MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/byteorder@1.5.0",
+      "name": "byteorder",
+      "version": "1.5.0",
+      "purl": "pkg:cargo/byteorder@1.5.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "Unlicense OR MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/bytes@1.12.1",
+      "name": "bytes",
+      "version": "1.12.1",
+      "purl": "pkg:cargo/bytes@1.12.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/camino@1.2.6",
+      "name": "camino",
+      "version": "1.2.6",
+      "purl": "pkg:cargo/camino@1.2.6",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/cargo-platform@0.1.9",
+      "name": "cargo-platform",
+      "version": "0.1.9",
+      "purl": "pkg:cargo/cargo-platform@0.1.9",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/cargo_metadata@0.19.2",
+      "name": "cargo_metadata",
+      "version": "0.19.2",
+      "purl": "pkg:cargo/cargo_metadata@0.19.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/cfb@0.14.0",
+      "name": "cfb",
+      "version": "0.14.0",
+      "purl": "pkg:cargo/cfb@0.14.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/cfg-if@1.0.5",
+      "name": "cfg-if",
+      "version": "1.0.5",
+      "purl": "pkg:cargo/cfg-if@1.0.5",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/chrono@0.4.45",
+      "name": "chrono",
+      "version": "0.4.45",
+      "purl": "pkg:cargo/chrono@0.4.45",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/cookie@0.18.2",
+      "name": "cookie",
+      "version": "0.18.2",
+      "purl": "pkg:cargo/cookie@0.18.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/cpufeatures@0.2.17",
+      "name": "cpufeatures",
+      "version": "0.2.17",
+      "purl": "pkg:cargo/cpufeatures@0.2.17",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/crc32fast@1.5.3",
+      "name": "crc32fast",
+      "version": "1.5.3",
+      "purl": "pkg:cargo/crc32fast@1.5.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/crossbeam-channel@0.5.17",
+      "name": "crossbeam-channel",
+      "version": "0.5.17",
+      "purl": "pkg:cargo/crossbeam-channel@0.5.17",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/crossbeam-utils@0.8.23",
+      "name": "crossbeam-utils",
+      "version": "0.8.23",
+      "purl": "pkg:cargo/crossbeam-utils@0.8.23",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/crypto-common@0.1.7",
+      "name": "crypto-common",
+      "version": "0.1.7",
+      "purl": "pkg:cargo/crypto-common@0.1.7",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/cssparser@0.37.0",
+      "name": "cssparser",
+      "version": "0.37.0",
+      "purl": "pkg:cargo/cssparser@0.37.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MPL-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/ctor@1.0.13",
+      "name": "ctor",
+      "version": "1.0.13",
+      "purl": "pkg:cargo/ctor@1.0.13",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0 OR MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/darling@0.21.3",
+      "name": "darling",
+      "version": "0.21.3",
+      "purl": "pkg:cargo/darling@0.21.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/darling_core@0.21.3",
+      "name": "darling_core",
+      "version": "0.21.3",
+      "purl": "pkg:cargo/darling_core@0.21.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/deranged@0.5.9",
+      "name": "deranged",
+      "version": "0.5.9",
+      "purl": "pkg:cargo/deranged@0.5.9",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/derive_more@2.1.1",
+      "name": "derive_more",
+      "version": "2.1.1",
+      "purl": "pkg:cargo/derive_more@2.1.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/digest@0.10.7",
+      "name": "digest",
+      "version": "0.10.7",
+      "purl": "pkg:cargo/digest@0.10.7",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/dirs-sys@0.5.0",
+      "name": "dirs-sys",
+      "version": "0.5.0",
+      "purl": "pkg:cargo/dirs-sys@0.5.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/dirs@7.0.0",
+      "name": "dirs",
+      "version": "7.0.0",
+      "purl": "pkg:cargo/dirs@7.0.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/dom_query@0.28.0",
+      "name": "dom_query",
+      "version": "0.28.0",
+      "purl": "pkg:cargo/dom_query@0.28.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/dpi@0.1.2",
+      "name": "dpi",
+      "version": "0.1.2",
+      "purl": "pkg:cargo/dpi@0.1.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0 AND MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/dtoa-short@0.3.5",
+      "name": "dtoa-short",
+      "version": "0.3.5",
+      "purl": "pkg:cargo/dtoa-short@0.3.5",
+      "licenses": [
+        {
+          "license": {
+            "name": "MPL-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/dtoa@1.0.11",
+      "name": "dtoa",
+      "version": "1.0.11",
+      "purl": "pkg:cargo/dtoa@1.0.11",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/dunce@1.0.5",
+      "name": "dunce",
+      "version": "1.0.5",
+      "purl": "pkg:cargo/dunce@1.0.5",
+      "licenses": [
+        {
+          "license": {
+            "name": "CC0-1.0 OR MIT-0 OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/dyn-clone@1.0.20",
+      "name": "dyn-clone",
+      "version": "1.0.20",
+      "purl": "pkg:cargo/dyn-clone@1.0.20",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/equivalent@1.0.3",
+      "name": "equivalent",
+      "version": "1.0.3",
+      "purl": "pkg:cargo/equivalent@1.0.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0 OR MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/erased-serde@0.4.11",
+      "name": "erased-serde",
+      "version": "0.4.11",
+      "purl": "pkg:cargo/erased-serde@0.4.11",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/fallible-iterator@0.3.0",
+      "name": "fallible-iterator",
+      "version": "0.3.0",
+      "purl": "pkg:cargo/fallible-iterator@0.3.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT/Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/fallible-streaming-iterator@0.1.9",
+      "name": "fallible-streaming-iterator",
+      "version": "0.1.9",
+      "purl": "pkg:cargo/fallible-streaming-iterator@0.1.9",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT/Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/fastrand@2.5.0",
+      "name": "fastrand",
+      "version": "2.5.0",
+      "purl": "pkg:cargo/fastrand@2.5.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0 OR MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/fdeflate@0.3.7",
+      "name": "fdeflate",
+      "version": "0.3.7",
+      "purl": "pkg:cargo/fdeflate@0.3.7",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/flate2@1.1.10",
+      "name": "flate2",
+      "version": "1.1.10",
+      "purl": "pkg:cargo/flate2@1.1.10",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/fnv@1.0.7",
+      "name": "fnv",
+      "version": "1.0.7",
+      "purl": "pkg:cargo/fnv@1.0.7",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0 / MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/foldhash@0.2.0",
+      "name": "foldhash",
+      "version": "0.2.0",
+      "purl": "pkg:cargo/foldhash@0.2.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "Zlib"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/form_urlencoded@1.2.2",
+      "name": "form_urlencoded",
+      "version": "1.2.2",
+      "purl": "pkg:cargo/form_urlencoded@1.2.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/generic-array@0.14.7",
+      "name": "generic-array",
+      "version": "0.14.7",
+      "purl": "pkg:cargo/generic-array@0.14.7",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/getrandom@0.3.4",
+      "name": "getrandom",
+      "version": "0.3.4",
+      "purl": "pkg:cargo/getrandom@0.3.4",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/getrandom@0.4.3",
+      "name": "getrandom",
+      "version": "0.4.3",
+      "purl": "pkg:cargo/getrandom@0.4.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/glob@0.3.4",
+      "name": "glob",
+      "version": "0.3.4",
+      "purl": "pkg:cargo/glob@0.3.4",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/hashbrown@0.12.3",
+      "name": "hashbrown",
+      "version": "0.12.3",
+      "purl": "pkg:cargo/hashbrown@0.12.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/hashbrown@0.17.1",
+      "name": "hashbrown",
+      "version": "0.17.1",
+      "purl": "pkg:cargo/hashbrown@0.17.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/hashlink@0.12.2",
+      "name": "hashlink",
+      "version": "0.12.2",
+      "purl": "pkg:cargo/hashlink@0.12.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/heck@0.5.0",
+      "name": "heck",
+      "version": "0.5.0",
+      "purl": "pkg:cargo/heck@0.5.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/html5ever@0.39.0",
+      "name": "html5ever",
+      "version": "0.39.0",
+      "purl": "pkg:cargo/html5ever@0.39.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/http@1.5.0",
+      "name": "http",
+      "version": "1.5.0",
+      "purl": "pkg:cargo/http@1.5.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/ico@0.6.0",
+      "name": "ico",
+      "version": "0.6.0",
+      "purl": "pkg:cargo/ico@0.6.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/icu_collections@2.1.1",
+      "name": "icu_collections",
+      "version": "2.1.1",
+      "purl": "pkg:cargo/icu_collections@2.1.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "Unicode-3.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/icu_locale_core@2.1.1",
+      "name": "icu_locale_core",
+      "version": "2.1.1",
+      "purl": "pkg:cargo/icu_locale_core@2.1.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "Unicode-3.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/icu_normalizer@2.1.1",
+      "name": "icu_normalizer",
+      "version": "2.1.1",
+      "purl": "pkg:cargo/icu_normalizer@2.1.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "Unicode-3.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/icu_normalizer_data@2.1.1",
+      "name": "icu_normalizer_data",
+      "version": "2.1.1",
+      "purl": "pkg:cargo/icu_normalizer_data@2.1.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "Unicode-3.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/icu_properties@2.1.2",
+      "name": "icu_properties",
+      "version": "2.1.2",
+      "purl": "pkg:cargo/icu_properties@2.1.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "Unicode-3.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/icu_properties_data@2.1.2",
+      "name": "icu_properties_data",
+      "version": "2.1.2",
+      "purl": "pkg:cargo/icu_properties_data@2.1.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "Unicode-3.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/icu_provider@2.1.1",
+      "name": "icu_provider",
+      "version": "2.1.1",
+      "purl": "pkg:cargo/icu_provider@2.1.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "Unicode-3.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/ident_case@1.0.1",
+      "name": "ident_case",
+      "version": "1.0.1",
+      "purl": "pkg:cargo/ident_case@1.0.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT/Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/idna@1.1.0",
+      "name": "idna",
+      "version": "1.1.0",
+      "purl": "pkg:cargo/idna@1.1.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/idna_adapter@1.2.1",
+      "name": "idna_adapter",
+      "version": "1.2.1",
+      "purl": "pkg:cargo/idna_adapter@1.2.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0 OR MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/indexmap@1.9.3",
+      "name": "indexmap",
+      "version": "1.9.3",
+      "purl": "pkg:cargo/indexmap@1.9.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0 OR MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/indexmap@2.14.2",
+      "name": "indexmap",
+      "version": "2.14.2",
+      "purl": "pkg:cargo/indexmap@2.14.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0 OR MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/infer@0.22.0",
+      "name": "infer",
+      "version": "0.22.0",
+      "purl": "pkg:cargo/infer@0.22.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/itoa@1.0.18",
+      "name": "itoa",
+      "version": "1.0.18",
+      "purl": "pkg:cargo/itoa@1.0.18",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/json-patch@4.2.0",
+      "name": "json-patch",
+      "version": "4.2.0",
+      "purl": "pkg:cargo/json-patch@4.2.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT/Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/jsonptr@0.7.1",
+      "name": "jsonptr",
+      "version": "0.7.1",
+      "purl": "pkg:cargo/jsonptr@0.7.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/keyboard-types@0.8.3",
+      "name": "keyboard-types",
+      "version": "0.8.3",
+      "purl": "pkg:cargo/keyboard-types@0.8.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/libc@0.2.191",
+      "name": "libc",
+      "version": "0.2.191",
+      "purl": "pkg:cargo/libc@0.2.191",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/libsqlite3-sys@0.39.1",
+      "name": "libsqlite3-sys",
+      "version": "0.39.1",
+      "purl": "pkg:cargo/libsqlite3-sys@0.39.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/litemap@0.8.3",
+      "name": "litemap",
+      "version": "0.8.3",
+      "purl": "pkg:cargo/litemap@0.8.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "Unicode-3.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/lock_api@0.4.14",
+      "name": "lock_api",
+      "version": "0.4.14",
+      "purl": "pkg:cargo/lock_api@0.4.14",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/log@0.4.34",
+      "name": "log",
+      "version": "0.4.34",
+      "purl": "pkg:cargo/log@0.4.34",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/markup5ever@0.39.0",
+      "name": "markup5ever",
+      "version": "0.39.0",
+      "purl": "pkg:cargo/markup5ever@0.39.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/memchr@2.8.3",
+      "name": "memchr",
+      "version": "2.8.3",
+      "purl": "pkg:cargo/memchr@2.8.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "Unlicense OR MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/mime@0.3.17",
+      "name": "mime",
+      "version": "0.3.17",
+      "purl": "pkg:cargo/mime@0.3.17",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/miniz_oxide@0.8.9",
+      "name": "miniz_oxide",
+      "version": "0.8.9",
+      "purl": "pkg:cargo/miniz_oxide@0.8.9",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Zlib OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/miniz_oxide@0.9.1",
+      "name": "miniz_oxide",
+      "version": "0.9.1",
+      "purl": "pkg:cargo/miniz_oxide@0.9.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Zlib OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/muda@0.20.0",
+      "name": "muda",
+      "version": "0.20.0",
+      "purl": "pkg:cargo/muda@0.20.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0 OR MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/new_debug_unreachable@1.0.6",
+      "name": "new_debug_unreachable",
+      "version": "1.0.6",
+      "purl": "pkg:cargo/new_debug_unreachable@1.0.6",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/num-conv@0.1.0",
+      "name": "num-conv",
+      "version": "0.1.0",
+      "purl": "pkg:cargo/num-conv@0.1.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/num-traits@0.2.19",
+      "name": "num-traits",
+      "version": "0.2.19",
+      "purl": "pkg:cargo/num-traits@0.2.19",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/once_cell@1.21.4",
+      "name": "once_cell",
+      "version": "1.21.4",
+      "purl": "pkg:cargo/once_cell@1.21.4",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/option-ext@0.2.0",
+      "name": "option-ext",
+      "version": "0.2.0",
+      "purl": "pkg:cargo/option-ext@0.2.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MPL-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/parking_lot@0.12.5",
+      "name": "parking_lot",
+      "version": "0.12.5",
+      "purl": "pkg:cargo/parking_lot@0.12.5",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/parking_lot_core@0.9.12",
+      "name": "parking_lot_core",
+      "version": "0.9.12",
+      "purl": "pkg:cargo/parking_lot_core@0.9.12",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/percent-encoding@2.3.2",
+      "name": "percent-encoding",
+      "version": "2.3.2",
+      "purl": "pkg:cargo/percent-encoding@2.3.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/phf@0.13.1",
+      "name": "phf",
+      "version": "0.13.1",
+      "purl": "pkg:cargo/phf@0.13.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/phf_generator@0.13.1",
+      "name": "phf_generator",
+      "version": "0.13.1",
+      "purl": "pkg:cargo/phf_generator@0.13.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/phf_shared@0.13.1",
+      "name": "phf_shared",
+      "version": "0.13.1",
+      "purl": "pkg:cargo/phf_shared@0.13.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/pin-project-lite@0.2.17",
+      "name": "pin-project-lite",
+      "version": "0.2.17",
+      "purl": "pkg:cargo/pin-project-lite@0.2.17",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0 OR MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/plist@1.8.0",
+      "name": "plist",
+      "version": "1.8.0",
+      "purl": "pkg:cargo/plist@1.8.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/png@0.18.1",
+      "name": "png",
+      "version": "0.18.1",
+      "purl": "pkg:cargo/png@0.18.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/potential_utf@0.1.6",
+      "name": "potential_utf",
+      "version": "0.1.6",
+      "purl": "pkg:cargo/potential_utf@0.1.6",
+      "licenses": [
+        {
+          "license": {
+            "name": "Unicode-3.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/powerfmt@0.2.1",
+      "name": "powerfmt",
+      "version": "0.2.1",
+      "purl": "pkg:cargo/powerfmt@0.2.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/precomputed-hash@0.1.1",
+      "name": "precomputed-hash",
+      "version": "0.1.1",
+      "purl": "pkg:cargo/precomputed-hash@0.1.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/proc-macro2@1.0.107",
+      "name": "proc-macro2",
+      "version": "1.0.107",
+      "purl": "pkg:cargo/proc-macro2@1.0.107",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/quick-xml@0.38.4",
+      "name": "quick-xml",
+      "version": "0.38.4",
+      "purl": "pkg:cargo/quick-xml@0.38.4",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/quote@1.0.47",
+      "name": "quote",
+      "version": "1.0.47",
+      "purl": "pkg:cargo/quote@1.0.47",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/raw-window-handle@0.6.2",
+      "name": "raw-window-handle",
+      "version": "0.6.2",
+      "purl": "pkg:cargo/raw-window-handle@0.6.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0 OR Zlib"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/regex-automata@0.4.18",
+      "name": "regex-automata",
+      "version": "0.4.18",
+      "purl": "pkg:cargo/regex-automata@0.4.18",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/regex-syntax@0.8.11",
+      "name": "regex-syntax",
+      "version": "0.8.11",
+      "purl": "pkg:cargo/regex-syntax@0.8.11",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/regex@1.13.1",
+      "name": "regex",
+      "version": "1.13.1",
+      "purl": "pkg:cargo/regex@1.13.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/rusqlite@0.41.1",
+      "name": "rusqlite",
+      "version": "0.41.1",
+      "purl": "pkg:cargo/rusqlite@0.41.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/rustc-hash@2.1.3",
+      "name": "rustc-hash",
+      "version": "2.1.3",
+      "purl": "pkg:cargo/rustc-hash@2.1.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0 OR MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/same-file@1.0.6",
+      "name": "same-file",
+      "version": "1.0.6",
+      "purl": "pkg:cargo/same-file@1.0.6",
+      "licenses": [
+        {
+          "license": {
+            "name": "Unlicense/MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/schemars@0.8.22",
+      "name": "schemars",
+      "version": "0.8.22",
+      "purl": "pkg:cargo/schemars@0.8.22",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/scopeguard@1.2.0",
+      "name": "scopeguard",
+      "version": "1.2.0",
+      "purl": "pkg:cargo/scopeguard@1.2.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/selectors@0.38.0",
+      "name": "selectors",
+      "version": "0.38.0",
+      "purl": "pkg:cargo/selectors@0.38.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MPL-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/semver@1.0.28",
+      "name": "semver",
+      "version": "1.0.28",
+      "purl": "pkg:cargo/semver@1.0.28",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/serde-untagged@0.1.9",
+      "name": "serde-untagged",
+      "version": "0.1.9",
+      "purl": "pkg:cargo/serde-untagged@0.1.9",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/serde@1.0.229",
+      "name": "serde",
+      "version": "1.0.229",
+      "purl": "pkg:cargo/serde@1.0.229",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/serde_core@1.0.229",
+      "name": "serde_core",
+      "version": "1.0.229",
+      "purl": "pkg:cargo/serde_core@1.0.229",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/serde_derive_internals@0.29.1",
+      "name": "serde_derive_internals",
+      "version": "0.29.1",
+      "purl": "pkg:cargo/serde_derive_internals@0.29.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/serde_json@1.0.154",
+      "name": "serde_json",
+      "version": "1.0.154",
+      "purl": "pkg:cargo/serde_json@1.0.154",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/serde_spanned@1.1.2",
+      "name": "serde_spanned",
+      "version": "1.1.2",
+      "purl": "pkg:cargo/serde_spanned@1.1.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/serde_with@3.17.0",
+      "name": "serde_with",
+      "version": "3.17.0",
+      "purl": "pkg:cargo/serde_with@3.17.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/serialize-to-javascript@0.1.2",
+      "name": "serialize-to-javascript",
+      "version": "0.1.2",
+      "purl": "pkg:cargo/serialize-to-javascript@0.1.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/servo_arc@0.4.3",
+      "name": "servo_arc",
+      "version": "0.4.3",
+      "purl": "pkg:cargo/servo_arc@0.4.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/sha2@0.10.9",
+      "name": "sha2",
+      "version": "0.10.9",
+      "purl": "pkg:cargo/sha2@0.10.9",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/simd-adler32@0.3.10",
+      "name": "simd-adler32",
+      "version": "0.3.10",
+      "purl": "pkg:cargo/simd-adler32@0.3.10",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/siphasher@1.0.4",
+      "name": "siphasher",
+      "version": "1.0.4",
+      "purl": "pkg:cargo/siphasher@1.0.4",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/smallvec@1.16.4",
+      "name": "smallvec",
+      "version": "1.16.4",
+      "purl": "pkg:cargo/smallvec@1.16.4",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/softbuffer@0.4.8",
+      "name": "softbuffer",
+      "version": "0.4.8",
+      "purl": "pkg:cargo/softbuffer@0.4.8",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/stable_deref_trait@1.2.1",
+      "name": "stable_deref_trait",
+      "version": "1.2.1",
+      "purl": "pkg:cargo/stable_deref_trait@1.2.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/string_cache@0.9.0",
+      "name": "string_cache",
+      "version": "0.9.0",
+      "purl": "pkg:cargo/string_cache@0.9.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/strsim@0.11.1",
+      "name": "strsim",
+      "version": "0.11.1",
+      "purl": "pkg:cargo/strsim@0.11.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/syn@2.0.119",
+      "name": "syn",
+      "version": "2.0.119",
+      "purl": "pkg:cargo/syn@2.0.119",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/syn@3.0.9",
+      "name": "syn",
+      "version": "3.0.9",
+      "purl": "pkg:cargo/syn@3.0.9",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/synstructure@0.14.0",
+      "name": "synstructure",
+      "version": "0.14.0",
+      "purl": "pkg:cargo/synstructure@0.14.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/tao@0.37.2",
+      "name": "tao",
+      "version": "0.37.2",
+      "purl": "pkg:cargo/tao@0.37.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/tauri-codegen@2.7.4",
+      "name": "tauri-codegen",
+      "version": "2.7.4",
+      "purl": "pkg:cargo/tauri-codegen@2.7.4",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0 OR MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/tauri-runtime-wry@2.12.3",
+      "name": "tauri-runtime-wry",
+      "version": "2.12.3",
+      "purl": "pkg:cargo/tauri-runtime-wry@2.12.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0 OR MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/tauri-runtime@2.12.2",
+      "name": "tauri-runtime",
+      "version": "2.12.2",
+      "purl": "pkg:cargo/tauri-runtime@2.12.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0 OR MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/tauri-utils@2.10.2",
+      "name": "tauri-utils",
+      "version": "2.10.2",
+      "purl": "pkg:cargo/tauri-utils@2.10.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0 OR MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/tauri@2.12.5",
+      "name": "tauri",
+      "version": "2.12.5",
+      "purl": "pkg:cargo/tauri@2.12.5",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0 OR MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/tendril@0.5.1",
+      "name": "tendril",
+      "version": "0.5.1",
+      "purl": "pkg:cargo/tendril@0.5.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/thiserror@2.0.21",
+      "name": "thiserror",
+      "version": "2.0.21",
+      "purl": "pkg:cargo/thiserror@2.0.21",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/time-core@0.1.7",
+      "name": "time-core",
+      "version": "0.1.7",
+      "purl": "pkg:cargo/time-core@0.1.7",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/time@0.3.45",
+      "name": "time",
+      "version": "0.3.45",
+      "purl": "pkg:cargo/time@0.3.45",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/tinystr@0.8.5",
+      "name": "tinystr",
+      "version": "0.8.5",
+      "purl": "pkg:cargo/tinystr@0.8.5",
+      "licenses": [
+        {
+          "license": {
+            "name": "Unicode-3.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/tokio@1.54.1",
+      "name": "tokio",
+      "version": "1.54.1",
+      "purl": "pkg:cargo/tokio@1.54.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/toml@1.1.8%2Bspec-1.1.0",
+      "name": "toml",
+      "version": "1.1.8+spec-1.1.0",
+      "purl": "pkg:cargo/toml@1.1.8%2Bspec-1.1.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/toml_datetime@1.1.2%2Bspec-1.1.0",
+      "name": "toml_datetime",
+      "version": "1.1.2+spec-1.1.0",
+      "purl": "pkg:cargo/toml_datetime@1.1.2%2Bspec-1.1.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/toml_parser@1.1.5%2Bspec-1.1.0",
+      "name": "toml_parser",
+      "version": "1.1.5+spec-1.1.0",
+      "purl": "pkg:cargo/toml_parser@1.1.5%2Bspec-1.1.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/toml_writer@1.1.3%2Bspec-1.1.0",
+      "name": "toml_writer",
+      "version": "1.1.3+spec-1.1.0",
+      "purl": "pkg:cargo/toml_writer@1.1.3%2Bspec-1.1.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/tracing-core@0.1.36",
+      "name": "tracing-core",
+      "version": "0.1.36",
+      "purl": "pkg:cargo/tracing-core@0.1.36",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/tracing@0.1.44",
+      "name": "tracing",
+      "version": "0.1.44",
+      "purl": "pkg:cargo/tracing@0.1.44",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/typeid@1.0.3",
+      "name": "typeid",
+      "version": "1.0.3",
+      "purl": "pkg:cargo/typeid@1.0.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/typenum@1.20.1",
+      "name": "typenum",
+      "version": "1.20.1",
+      "purl": "pkg:cargo/typenum@1.20.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/unicode-ident@1.0.27",
+      "name": "unicode-ident",
+      "version": "1.0.27",
+      "purl": "pkg:cargo/unicode-ident@1.0.27",
+      "licenses": [
+        {
+          "license": {
+            "name": "(MIT OR Apache-2.0) AND Unicode-3.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/unicode-segmentation@1.13.3",
+      "name": "unicode-segmentation",
+      "version": "1.13.3",
+      "purl": "pkg:cargo/unicode-segmentation@1.13.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/url@2.5.8",
+      "name": "url",
+      "version": "2.5.8",
+      "purl": "pkg:cargo/url@2.5.8",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/urlpattern@0.6.0",
+      "name": "urlpattern",
+      "version": "0.6.0",
+      "purl": "pkg:cargo/urlpattern@0.6.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/utf8_iter@1.0.4",
+      "name": "utf8_iter",
+      "version": "1.0.4",
+      "purl": "pkg:cargo/utf8_iter@1.0.4",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0 OR MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/uuid@1.26.1",
+      "name": "uuid",
+      "version": "1.26.1",
+      "purl": "pkg:cargo/uuid@1.26.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0 OR MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/verifysign@1.0.1",
+      "name": "verifysign",
+      "version": "1.0.1",
+      "purl": "pkg:cargo/verifysign@1.0.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/walkdir@2.5.0",
+      "name": "walkdir",
+      "version": "2.5.0",
+      "purl": "pkg:cargo/walkdir@2.5.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "Unlicense/MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/web-time@1.1.0",
+      "name": "web-time",
+      "version": "1.1.0",
+      "purl": "pkg:cargo/web-time@1.1.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/web_atoms@0.2.6",
+      "name": "web_atoms",
+      "version": "0.2.6",
+      "purl": "pkg:cargo/web_atoms@0.2.6",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/webview2-com-sys@0.39.1",
+      "name": "webview2-com-sys",
+      "version": "0.39.1",
+      "purl": "pkg:cargo/webview2-com-sys@0.39.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/webview2-com@0.39.1",
+      "name": "webview2-com",
+      "version": "0.39.1",
+      "purl": "pkg:cargo/webview2-com@0.39.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/winapi-util@0.1.11",
+      "name": "winapi-util",
+      "version": "0.1.11",
+      "purl": "pkg:cargo/winapi-util@0.1.11",
+      "licenses": [
+        {
+          "license": {
+            "name": "Unlicense OR MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/window-vibrancy@0.8.1",
+      "name": "window-vibrancy",
+      "version": "0.8.1",
+      "purl": "pkg:cargo/window-vibrancy@0.8.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0 OR MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/windows-collections@0.3.2",
+      "name": "windows-collections",
+      "version": "0.3.2",
+      "purl": "pkg:cargo/windows-collections@0.3.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/windows-core@0.62.2",
+      "name": "windows-core",
+      "version": "0.62.2",
+      "purl": "pkg:cargo/windows-core@0.62.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/windows-future@0.3.2",
+      "name": "windows-future",
+      "version": "0.3.2",
+      "purl": "pkg:cargo/windows-future@0.3.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/windows-link@0.2.1",
+      "name": "windows-link",
+      "version": "0.2.1",
+      "purl": "pkg:cargo/windows-link@0.2.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/windows-numerics@0.3.1",
+      "name": "windows-numerics",
+      "version": "0.3.1",
+      "purl": "pkg:cargo/windows-numerics@0.3.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/windows-result@0.4.1",
+      "name": "windows-result",
+      "version": "0.4.1",
+      "purl": "pkg:cargo/windows-result@0.4.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/windows-strings@0.5.1",
+      "name": "windows-strings",
+      "version": "0.5.1",
+      "purl": "pkg:cargo/windows-strings@0.5.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/windows-sys@0.61.2",
+      "name": "windows-sys",
+      "version": "0.61.2",
+      "purl": "pkg:cargo/windows-sys@0.61.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/windows-threading@0.2.1",
+      "name": "windows-threading",
+      "version": "0.2.1",
+      "purl": "pkg:cargo/windows-threading@0.2.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/windows-version@0.1.7",
+      "name": "windows-version",
+      "version": "0.1.7",
+      "purl": "pkg:cargo/windows-version@0.1.7",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/windows@0.62.2",
+      "name": "windows",
+      "version": "0.62.2",
+      "purl": "pkg:cargo/windows@0.62.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT OR Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/winnow@1.0.4",
+      "name": "winnow",
+      "version": "1.0.4",
+      "purl": "pkg:cargo/winnow@1.0.4",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/winreg@0.56.0",
+      "name": "winreg",
+      "version": "0.56.0",
+      "purl": "pkg:cargo/winreg@0.56.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/writeable@0.6.4",
+      "name": "writeable",
+      "version": "0.6.4",
+      "purl": "pkg:cargo/writeable@0.6.4",
+      "licenses": [
+        {
+          "license": {
+            "name": "Unicode-3.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/wry@0.57.1",
+      "name": "wry",
+      "version": "0.57.1",
+      "purl": "pkg:cargo/wry@0.57.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0 OR MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/yoke@0.8.4",
+      "name": "yoke",
+      "version": "0.8.4",
+      "purl": "pkg:cargo/yoke@0.8.4",
+      "licenses": [
+        {
+          "license": {
+            "name": "Unicode-3.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/zerofrom@0.1.8",
+      "name": "zerofrom",
+      "version": "0.1.8",
+      "purl": "pkg:cargo/zerofrom@0.1.8",
+      "licenses": [
+        {
+          "license": {
+            "name": "Unicode-3.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/zerotrie@0.2.5",
+      "name": "zerotrie",
+      "version": "0.2.5",
+      "purl": "pkg:cargo/zerotrie@0.2.5",
+      "licenses": [
+        {
+          "license": {
+            "name": "Unicode-3.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/zerovec@0.11.9",
+      "name": "zerovec",
+      "version": "0.11.9",
+      "purl": "pkg:cargo/zerovec@0.11.9",
+      "licenses": [
+        {
+          "license": {
+            "name": "Unicode-3.0"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:cargo/zmij@1.0.23",
+      "name": "zmij",
+      "version": "1.0.23",
+      "purl": "pkg:cargo/zmij@1.0.23",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "cargo"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-crate-upper-bound"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "crate-level normal graph; not symbol-level proof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/%40tauri-apps/api@2.12.4",
+      "name": "@tauri-apps/api",
+      "version": "2.12.4",
+      "purl": "pkg:npm/%40tauri-apps/api@2.12.4",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0 OR MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "npm"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "frontend-production-candidate"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "production dependency set; Vite tree-shaking not proven"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/react-dom@19.3.1",
+      "name": "react-dom",
+      "version": "19.3.1",
+      "purl": "pkg:npm/react-dom@19.3.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "npm"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "frontend-production-candidate"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "production dependency set; Vite tree-shaking not proven"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/react@19.3.1",
+      "name": "react",
+      "version": "19.3.1",
+      "purl": "pkg:npm/react@19.3.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "npm"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "frontend-production-candidate"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "production dependency set; Vite tree-shaking not proven"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/scheduler@0.28.0",
+      "name": "scheduler",
+      "version": "0.28.0",
+      "purl": "pkg:npm/scheduler@0.28.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "hashes": [],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "npm"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "frontend-production-candidate"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "production dependency set; Vite tree-shaking not proven"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:generic/webview2-loader@1.0.3800.47",
+      "name": "WebView2Loader",
+      "version": "1.0.3800.47",
+      "purl": "pkg:generic/webview2-loader@1.0.3800.47",
+      "licenses": [
+        {
+          "license": {
+            "name": "Microsoft WebView2 SDK License (BSD-3-Clause-style)"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "89c6b872783b8f6c3cedbff618adb42082d455c615453ae10cfc753f1e8f25d8"
+        }
+      ],
+      "properties": [
+        {
+          "name": "sentinel:ecosystem",
+          "value": "native"
+        },
+        {
+          "name": "sentinel:scope",
+          "value": "runtime-embedded-static"
+        },
+        {
+          "name": "sentinel:binaryGraph",
+          "value": "statically linked via webview2-com-sys; not a separate DLL dependency"
+        },
+        {
+          "name": "sentinel:licenseFile",
+          "value": "third-party-licenses/packages/native/webview2-loader@1.0.3800.47/LICENSE.txt"
+        },
+        {
+          "name": "sentinel:noticeFile",
+          "value": "third-party-licenses/packages/native/webview2-loader@1.0.3800.47/NOTICE.txt"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "app:sentinel-lite@0.1.0",
+      "dependsOn": [
+        "pkg:cargo/serde@1.0.229",
+        "pkg:cargo/serde_json@1.0.154",
+        "pkg:cargo/tauri@2.12.5",
+        "pkg:cargo/thiserror@2.0.21",
+        "pkg:npm/%40tauri-apps/api@2.12.4",
+        "pkg:npm/react-dom@19.3.1",
+        "pkg:npm/react@19.3.1",
+        "pkg:npm/scheduler@0.28.0"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/adler2@2.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/aho-corasick@1.1.5",
+      "dependsOn": [
+        "pkg:cargo/memchr@2.8.3"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/alloc-no-stdlib@3.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/alloc-stdlib@0.3.0",
+      "dependsOn": [
+        "pkg:cargo/alloc-no-stdlib@3.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/anyhow@1.0.104",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/base64@0.22.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/base64@0.23.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/bit-set@0.8.0",
+      "dependsOn": [
+        "pkg:cargo/bit-vec@0.8.0"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/bit-vec@0.8.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/bitflags@2.13.2",
+      "dependsOn": [
+        "pkg:cargo/serde_core@1.0.229"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/block-buffer@0.10.4",
+      "dependsOn": [
+        "pkg:cargo/generic-array@0.14.7"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/brotli-decompressor@6.2.0",
+      "dependsOn": [
+        "pkg:cargo/alloc-no-stdlib@3.0.0",
+        "pkg:cargo/alloc-stdlib@0.3.0"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/brotli@9.1.1",
+      "dependsOn": [
+        "pkg:cargo/alloc-no-stdlib@3.0.0",
+        "pkg:cargo/alloc-stdlib@0.3.0",
+        "pkg:cargo/brotli-decompressor@6.2.0"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/byteorder@1.5.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/bytes@1.12.1",
+      "dependsOn": [
+        "pkg:cargo/serde@1.0.229"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/camino@1.2.6",
+      "dependsOn": [
+        "pkg:cargo/serde_core@1.0.229"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/cargo-platform@0.1.9",
+      "dependsOn": [
+        "pkg:cargo/serde@1.0.229"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/cargo_metadata@0.19.2",
+      "dependsOn": [
+        "pkg:cargo/camino@1.2.6",
+        "pkg:cargo/cargo-platform@0.1.9",
+        "pkg:cargo/semver@1.0.28",
+        "pkg:cargo/serde@1.0.229",
+        "pkg:cargo/serde_json@1.0.154",
+        "pkg:cargo/thiserror@2.0.21"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/cfb@0.14.0",
+      "dependsOn": [
+        "pkg:cargo/fnv@1.0.7",
+        "pkg:cargo/uuid@1.26.1",
+        "pkg:cargo/web-time@1.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/cfg-if@1.0.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/chrono@0.4.45",
+      "dependsOn": [
+        "pkg:cargo/num-traits@0.2.19",
+        "pkg:cargo/serde@1.0.229",
+        "pkg:cargo/windows-link@0.2.1"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/cookie@0.18.2",
+      "dependsOn": [
+        "pkg:cargo/time@0.3.45"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/cpufeatures@0.2.17",
+      "dependsOn": [
+        "pkg:cargo/libc@0.2.191"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/crc32fast@1.5.3",
+      "dependsOn": [
+        "pkg:cargo/cfg-if@1.0.5"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/crossbeam-channel@0.5.17",
+      "dependsOn": [
+        "pkg:cargo/crossbeam-utils@0.8.23"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/crossbeam-utils@0.8.23",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/crypto-common@0.1.7",
+      "dependsOn": [
+        "pkg:cargo/generic-array@0.14.7",
+        "pkg:cargo/typenum@1.20.1"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/cssparser@0.37.0",
+      "dependsOn": [
+        "pkg:cargo/dtoa-short@0.3.5",
+        "pkg:cargo/itoa@1.0.18",
+        "pkg:cargo/phf@0.13.1",
+        "pkg:cargo/smallvec@1.16.4"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/ctor@1.0.13",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/darling@0.21.3",
+      "dependsOn": [
+        "pkg:cargo/darling_core@0.21.3"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/darling_core@0.21.3",
+      "dependsOn": [
+        "pkg:cargo/fnv@1.0.7",
+        "pkg:cargo/ident_case@1.0.1",
+        "pkg:cargo/proc-macro2@1.0.107",
+        "pkg:cargo/quote@1.0.47",
+        "pkg:cargo/strsim@0.11.1",
+        "pkg:cargo/syn@2.0.119"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/deranged@0.5.9",
+      "dependsOn": [
+        "pkg:cargo/powerfmt@0.2.1",
+        "pkg:cargo/serde_core@1.0.229"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/derive_more@2.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/digest@0.10.7",
+      "dependsOn": [
+        "pkg:cargo/block-buffer@0.10.4",
+        "pkg:cargo/crypto-common@0.1.7"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/dirs-sys@0.5.0",
+      "dependsOn": [
+        "pkg:cargo/libc@0.2.191",
+        "pkg:cargo/option-ext@0.2.0",
+        "pkg:cargo/windows-sys@0.61.2"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/dirs@7.0.0",
+      "dependsOn": [
+        "pkg:cargo/dirs-sys@0.5.0"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/dom_query@0.28.0",
+      "dependsOn": [
+        "pkg:cargo/bit-set@0.8.0",
+        "pkg:cargo/cssparser@0.37.0",
+        "pkg:cargo/foldhash@0.2.0",
+        "pkg:cargo/html5ever@0.39.0",
+        "pkg:cargo/precomputed-hash@0.1.1",
+        "pkg:cargo/selectors@0.38.0",
+        "pkg:cargo/tendril@0.5.1"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/dpi@0.1.2",
+      "dependsOn": [
+        "pkg:cargo/serde@1.0.229"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/dtoa-short@0.3.5",
+      "dependsOn": [
+        "pkg:cargo/dtoa@1.0.11"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/dtoa@1.0.11",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/dunce@1.0.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/dyn-clone@1.0.20",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/equivalent@1.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/erased-serde@0.4.11",
+      "dependsOn": [
+        "pkg:cargo/serde@1.0.229",
+        "pkg:cargo/serde_core@1.0.229",
+        "pkg:cargo/typeid@1.0.3"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/fallible-iterator@0.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/fallible-streaming-iterator@0.1.9",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/fastrand@2.5.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/fdeflate@0.3.7",
+      "dependsOn": [
+        "pkg:cargo/simd-adler32@0.3.10"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/flate2@1.1.10",
+      "dependsOn": [
+        "pkg:cargo/crc32fast@1.5.3",
+        "pkg:cargo/miniz_oxide@0.9.1"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/fnv@1.0.7",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/foldhash@0.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/form_urlencoded@1.2.2",
+      "dependsOn": [
+        "pkg:cargo/percent-encoding@2.3.2"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/generic-array@0.14.7",
+      "dependsOn": [
+        "pkg:cargo/typenum@1.20.1"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/getrandom@0.3.4",
+      "dependsOn": [
+        "pkg:cargo/cfg-if@1.0.5",
+        "pkg:cargo/libc@0.2.191"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/getrandom@0.4.3",
+      "dependsOn": [
+        "pkg:cargo/cfg-if@1.0.5",
+        "pkg:cargo/libc@0.2.191"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/glob@0.3.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/hashbrown@0.12.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/hashbrown@0.17.1",
+      "dependsOn": [
+        "pkg:cargo/foldhash@0.2.0"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/hashlink@0.12.2",
+      "dependsOn": [
+        "pkg:cargo/hashbrown@0.17.1"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/heck@0.5.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/html5ever@0.39.0",
+      "dependsOn": [
+        "pkg:cargo/log@0.4.34",
+        "pkg:cargo/markup5ever@0.39.0"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/http@1.5.0",
+      "dependsOn": [
+        "pkg:cargo/bytes@1.12.1",
+        "pkg:cargo/itoa@1.0.18"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/ico@0.6.0",
+      "dependsOn": [
+        "pkg:cargo/byteorder@1.5.0",
+        "pkg:cargo/png@0.18.1"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/icu_collections@2.1.1",
+      "dependsOn": [
+        "pkg:cargo/potential_utf@0.1.6",
+        "pkg:cargo/yoke@0.8.4",
+        "pkg:cargo/zerofrom@0.1.8",
+        "pkg:cargo/zerovec@0.11.9"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/icu_locale_core@2.1.1",
+      "dependsOn": [
+        "pkg:cargo/litemap@0.8.3",
+        "pkg:cargo/tinystr@0.8.5",
+        "pkg:cargo/writeable@0.6.4",
+        "pkg:cargo/zerovec@0.11.9"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/icu_normalizer@2.1.1",
+      "dependsOn": [
+        "pkg:cargo/icu_collections@2.1.1",
+        "pkg:cargo/icu_normalizer_data@2.1.1",
+        "pkg:cargo/icu_properties@2.1.2",
+        "pkg:cargo/icu_provider@2.1.1",
+        "pkg:cargo/smallvec@1.16.4",
+        "pkg:cargo/zerovec@0.11.9"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/icu_normalizer_data@2.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/icu_properties@2.1.2",
+      "dependsOn": [
+        "pkg:cargo/icu_collections@2.1.1",
+        "pkg:cargo/icu_locale_core@2.1.1",
+        "pkg:cargo/icu_properties_data@2.1.2",
+        "pkg:cargo/icu_provider@2.1.1",
+        "pkg:cargo/zerotrie@0.2.5",
+        "pkg:cargo/zerovec@0.11.9"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/icu_properties_data@2.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/icu_provider@2.1.1",
+      "dependsOn": [
+        "pkg:cargo/icu_locale_core@2.1.1",
+        "pkg:cargo/writeable@0.6.4",
+        "pkg:cargo/yoke@0.8.4",
+        "pkg:cargo/zerofrom@0.1.8",
+        "pkg:cargo/zerotrie@0.2.5",
+        "pkg:cargo/zerovec@0.11.9"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/ident_case@1.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/idna@1.1.0",
+      "dependsOn": [
+        "pkg:cargo/idna_adapter@1.2.1",
+        "pkg:cargo/smallvec@1.16.4",
+        "pkg:cargo/utf8_iter@1.0.4"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/idna_adapter@1.2.1",
+      "dependsOn": [
+        "pkg:cargo/icu_normalizer@2.1.1",
+        "pkg:cargo/icu_properties@2.1.2"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/indexmap@1.9.3",
+      "dependsOn": [
+        "pkg:cargo/hashbrown@0.12.3",
+        "pkg:cargo/serde@1.0.229"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/indexmap@2.14.2",
+      "dependsOn": [
+        "pkg:cargo/equivalent@1.0.3",
+        "pkg:cargo/hashbrown@0.17.1",
+        "pkg:cargo/serde@1.0.229",
+        "pkg:cargo/serde_core@1.0.229"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/infer@0.22.0",
+      "dependsOn": [
+        "pkg:cargo/cfb@0.14.0"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/itoa@1.0.18",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/json-patch@4.2.0",
+      "dependsOn": [
+        "pkg:cargo/jsonptr@0.7.1",
+        "pkg:cargo/serde@1.0.229",
+        "pkg:cargo/serde_json@1.0.154",
+        "pkg:cargo/thiserror@2.0.21"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/jsonptr@0.7.1",
+      "dependsOn": [
+        "pkg:cargo/serde@1.0.229",
+        "pkg:cargo/serde_json@1.0.154"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/keyboard-types@0.8.3",
+      "dependsOn": [
+        "pkg:cargo/bitflags@2.13.2",
+        "pkg:cargo/serde@1.0.229"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/libc@0.2.191",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/libsqlite3-sys@0.39.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/litemap@0.8.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/lock_api@0.4.14",
+      "dependsOn": [
+        "pkg:cargo/scopeguard@1.2.0"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/log@0.4.34",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/markup5ever@0.39.0",
+      "dependsOn": [
+        "pkg:cargo/log@0.4.34",
+        "pkg:cargo/tendril@0.5.1",
+        "pkg:cargo/web_atoms@0.2.6"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/memchr@2.8.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/mime@0.3.17",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/miniz_oxide@0.8.9",
+      "dependsOn": [
+        "pkg:cargo/adler2@2.0.1",
+        "pkg:cargo/simd-adler32@0.3.10"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/miniz_oxide@0.9.1",
+      "dependsOn": [
+        "pkg:cargo/adler2@2.0.1",
+        "pkg:cargo/simd-adler32@0.3.10"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/muda@0.20.0",
+      "dependsOn": [
+        "pkg:cargo/crossbeam-channel@0.5.17",
+        "pkg:cargo/dpi@0.1.2",
+        "pkg:cargo/keyboard-types@0.8.3",
+        "pkg:cargo/once_cell@1.21.4",
+        "pkg:cargo/png@0.18.1",
+        "pkg:cargo/serde@1.0.229",
+        "pkg:cargo/thiserror@2.0.21",
+        "pkg:cargo/windows-sys@0.61.2"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/new_debug_unreachable@1.0.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/num-conv@0.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/num-traits@0.2.19",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/once_cell@1.21.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/option-ext@0.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/parking_lot@0.12.5",
+      "dependsOn": [
+        "pkg:cargo/lock_api@0.4.14",
+        "pkg:cargo/parking_lot_core@0.9.12"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/parking_lot_core@0.9.12",
+      "dependsOn": [
+        "pkg:cargo/cfg-if@1.0.5",
+        "pkg:cargo/libc@0.2.191",
+        "pkg:cargo/smallvec@1.16.4",
+        "pkg:cargo/windows-link@0.2.1"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/percent-encoding@2.3.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/phf@0.13.1",
+      "dependsOn": [
+        "pkg:cargo/phf_shared@0.13.1",
+        "pkg:cargo/serde@1.0.229"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/phf_generator@0.13.1",
+      "dependsOn": [
+        "pkg:cargo/fastrand@2.5.0",
+        "pkg:cargo/phf_shared@0.13.1"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/phf_shared@0.13.1",
+      "dependsOn": [
+        "pkg:cargo/siphasher@1.0.4"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/pin-project-lite@0.2.17",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/plist@1.8.0",
+      "dependsOn": [
+        "pkg:cargo/base64@0.22.1",
+        "pkg:cargo/indexmap@2.14.2",
+        "pkg:cargo/quick-xml@0.38.4",
+        "pkg:cargo/serde@1.0.229",
+        "pkg:cargo/time@0.3.45"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/png@0.18.1",
+      "dependsOn": [
+        "pkg:cargo/bitflags@2.13.2",
+        "pkg:cargo/crc32fast@1.5.3",
+        "pkg:cargo/fdeflate@0.3.7",
+        "pkg:cargo/flate2@1.1.10",
+        "pkg:cargo/miniz_oxide@0.8.9"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/potential_utf@0.1.6",
+      "dependsOn": [
+        "pkg:cargo/zerovec@0.11.9"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/powerfmt@0.2.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/precomputed-hash@0.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/proc-macro2@1.0.107",
+      "dependsOn": [
+        "pkg:cargo/unicode-ident@1.0.27"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/quick-xml@0.38.4",
+      "dependsOn": [
+        "pkg:cargo/memchr@2.8.3"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/quote@1.0.47",
+      "dependsOn": [
+        "pkg:cargo/proc-macro2@1.0.107"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/raw-window-handle@0.6.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/regex-automata@0.4.18",
+      "dependsOn": [
+        "pkg:cargo/aho-corasick@1.1.5",
+        "pkg:cargo/memchr@2.8.3",
+        "pkg:cargo/regex-syntax@0.8.11"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/regex-syntax@0.8.11",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/regex@1.13.1",
+      "dependsOn": [
+        "pkg:cargo/aho-corasick@1.1.5",
+        "pkg:cargo/memchr@2.8.3",
+        "pkg:cargo/regex-automata@0.4.18",
+        "pkg:cargo/regex-syntax@0.8.11"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/rusqlite@0.41.1",
+      "dependsOn": [
+        "pkg:cargo/bitflags@2.13.2",
+        "pkg:cargo/fallible-iterator@0.3.0",
+        "pkg:cargo/fallible-streaming-iterator@0.1.9",
+        "pkg:cargo/hashlink@0.12.2",
+        "pkg:cargo/libsqlite3-sys@0.39.1",
+        "pkg:cargo/smallvec@1.16.4"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/rustc-hash@2.1.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/same-file@1.0.6",
+      "dependsOn": [
+        "pkg:cargo/winapi-util@0.1.11"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/schemars@0.8.22",
+      "dependsOn": [
+        "pkg:cargo/dyn-clone@1.0.20",
+        "pkg:cargo/indexmap@1.9.3",
+        "pkg:cargo/serde@1.0.229",
+        "pkg:cargo/serde_json@1.0.154",
+        "pkg:cargo/url@2.5.8",
+        "pkg:cargo/uuid@1.26.1"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/scopeguard@1.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/selectors@0.38.0",
+      "dependsOn": [
+        "pkg:cargo/bitflags@2.13.2",
+        "pkg:cargo/cssparser@0.37.0",
+        "pkg:cargo/derive_more@2.1.1",
+        "pkg:cargo/log@0.4.34",
+        "pkg:cargo/new_debug_unreachable@1.0.6",
+        "pkg:cargo/phf@0.13.1",
+        "pkg:cargo/precomputed-hash@0.1.1",
+        "pkg:cargo/rustc-hash@2.1.3",
+        "pkg:cargo/servo_arc@0.4.3",
+        "pkg:cargo/smallvec@1.16.4"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/semver@1.0.28",
+      "dependsOn": [
+        "pkg:cargo/serde@1.0.229",
+        "pkg:cargo/serde_core@1.0.229"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/serde-untagged@0.1.9",
+      "dependsOn": [
+        "pkg:cargo/erased-serde@0.4.11",
+        "pkg:cargo/serde@1.0.229",
+        "pkg:cargo/serde_core@1.0.229",
+        "pkg:cargo/typeid@1.0.3"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/serde@1.0.229",
+      "dependsOn": [
+        "pkg:cargo/serde_core@1.0.229"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/serde_core@1.0.229",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/serde_derive_internals@0.29.1",
+      "dependsOn": [
+        "pkg:cargo/proc-macro2@1.0.107",
+        "pkg:cargo/quote@1.0.47",
+        "pkg:cargo/syn@2.0.119"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/serde_json@1.0.154",
+      "dependsOn": [
+        "pkg:cargo/itoa@1.0.18",
+        "pkg:cargo/memchr@2.8.3",
+        "pkg:cargo/serde@1.0.229",
+        "pkg:cargo/serde_core@1.0.229",
+        "pkg:cargo/zmij@1.0.23"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/serde_spanned@1.1.2",
+      "dependsOn": [
+        "pkg:cargo/serde_core@1.0.229"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/serde_with@3.17.0",
+      "dependsOn": [
+        "pkg:cargo/base64@0.22.1",
+        "pkg:cargo/chrono@0.4.45",
+        "pkg:cargo/indexmap@1.9.3",
+        "pkg:cargo/indexmap@2.14.2",
+        "pkg:cargo/serde_core@1.0.229",
+        "pkg:cargo/serde_json@1.0.154",
+        "pkg:cargo/time@0.3.45"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/serialize-to-javascript@0.1.2",
+      "dependsOn": [
+        "pkg:cargo/serde@1.0.229",
+        "pkg:cargo/serde_json@1.0.154"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/servo_arc@0.4.3",
+      "dependsOn": [
+        "pkg:cargo/stable_deref_trait@1.2.1"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/sha2@0.10.9",
+      "dependsOn": [
+        "pkg:cargo/cfg-if@1.0.5",
+        "pkg:cargo/cpufeatures@0.2.17",
+        "pkg:cargo/digest@0.10.7"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/simd-adler32@0.3.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/siphasher@1.0.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/smallvec@1.16.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/softbuffer@0.4.8",
+      "dependsOn": [
+        "pkg:cargo/raw-window-handle@0.6.2",
+        "pkg:cargo/tracing@0.1.44",
+        "pkg:cargo/windows-sys@0.61.2"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/stable_deref_trait@1.2.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/string_cache@0.9.0",
+      "dependsOn": [
+        "pkg:cargo/new_debug_unreachable@1.0.6",
+        "pkg:cargo/parking_lot@0.12.5",
+        "pkg:cargo/phf_shared@0.13.1",
+        "pkg:cargo/precomputed-hash@0.1.1"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/strsim@0.11.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/syn@2.0.119",
+      "dependsOn": [
+        "pkg:cargo/proc-macro2@1.0.107",
+        "pkg:cargo/quote@1.0.47",
+        "pkg:cargo/unicode-ident@1.0.27"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/syn@3.0.9",
+      "dependsOn": [
+        "pkg:cargo/proc-macro2@1.0.107",
+        "pkg:cargo/quote@1.0.47",
+        "pkg:cargo/unicode-ident@1.0.27"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/synstructure@0.14.0",
+      "dependsOn": [
+        "pkg:cargo/proc-macro2@1.0.107",
+        "pkg:cargo/quote@1.0.47",
+        "pkg:cargo/syn@3.0.9"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/tao@0.37.2",
+      "dependsOn": [
+        "pkg:cargo/bitflags@2.13.2",
+        "pkg:cargo/crossbeam-channel@0.5.17",
+        "pkg:cargo/dpi@0.1.2",
+        "pkg:cargo/libc@0.2.191",
+        "pkg:cargo/log@0.4.34",
+        "pkg:cargo/parking_lot@0.12.5",
+        "pkg:cargo/percent-encoding@2.3.2",
+        "pkg:cargo/raw-window-handle@0.6.2",
+        "pkg:cargo/unicode-segmentation@1.13.3",
+        "pkg:cargo/url@2.5.8",
+        "pkg:cargo/windows-core@0.62.2",
+        "pkg:cargo/windows-version@0.1.7",
+        "pkg:cargo/windows@0.62.2"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/tauri-codegen@2.7.4",
+      "dependsOn": [
+        "pkg:cargo/base64@0.23.1",
+        "pkg:cargo/brotli@9.1.1",
+        "pkg:cargo/ico@0.6.0",
+        "pkg:cargo/json-patch@4.2.0",
+        "pkg:cargo/plist@1.8.0",
+        "pkg:cargo/png@0.18.1",
+        "pkg:cargo/proc-macro2@1.0.107",
+        "pkg:cargo/quote@1.0.47",
+        "pkg:cargo/semver@1.0.28",
+        "pkg:cargo/serde@1.0.229",
+        "pkg:cargo/serde_json@1.0.154",
+        "pkg:cargo/sha2@0.10.9",
+        "pkg:cargo/syn@2.0.119",
+        "pkg:cargo/tauri-utils@2.10.2",
+        "pkg:cargo/thiserror@2.0.21",
+        "pkg:cargo/time@0.3.45",
+        "pkg:cargo/url@2.5.8",
+        "pkg:cargo/uuid@1.26.1",
+        "pkg:cargo/walkdir@2.5.0"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/tauri-runtime-wry@2.12.3",
+      "dependsOn": [
+        "pkg:cargo/http@1.5.0",
+        "pkg:cargo/log@0.4.34",
+        "pkg:cargo/percent-encoding@2.3.2",
+        "pkg:cargo/raw-window-handle@0.6.2",
+        "pkg:cargo/softbuffer@0.4.8",
+        "pkg:cargo/tao@0.37.2",
+        "pkg:cargo/tauri-runtime@2.12.2",
+        "pkg:cargo/tauri-utils@2.10.2",
+        "pkg:cargo/url@2.5.8",
+        "pkg:cargo/webview2-com@0.39.1",
+        "pkg:cargo/windows@0.62.2",
+        "pkg:cargo/wry@0.57.1"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/tauri-runtime@2.12.2",
+      "dependsOn": [
+        "pkg:cargo/cookie@0.18.2",
+        "pkg:cargo/dpi@0.1.2",
+        "pkg:cargo/http@1.5.0",
+        "pkg:cargo/raw-window-handle@0.6.2",
+        "pkg:cargo/serde@1.0.229",
+        "pkg:cargo/serde_json@1.0.154",
+        "pkg:cargo/tauri-utils@2.10.2",
+        "pkg:cargo/thiserror@2.0.21",
+        "pkg:cargo/url@2.5.8",
+        "pkg:cargo/webview2-com@0.39.1",
+        "pkg:cargo/windows@0.62.2"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/tauri-utils@2.10.2",
+      "dependsOn": [
+        "pkg:cargo/anyhow@1.0.104",
+        "pkg:cargo/brotli@9.1.1",
+        "pkg:cargo/cargo_metadata@0.19.2",
+        "pkg:cargo/ctor@1.0.13",
+        "pkg:cargo/dom_query@0.28.0",
+        "pkg:cargo/dunce@1.0.5",
+        "pkg:cargo/glob@0.3.4",
+        "pkg:cargo/http@1.5.0",
+        "pkg:cargo/infer@0.22.0",
+        "pkg:cargo/json-patch@4.2.0",
+        "pkg:cargo/log@0.4.34",
+        "pkg:cargo/memchr@2.8.3",
+        "pkg:cargo/phf@0.13.1",
+        "pkg:cargo/plist@1.8.0",
+        "pkg:cargo/proc-macro2@1.0.107",
+        "pkg:cargo/quote@1.0.47",
+        "pkg:cargo/regex@1.13.1",
+        "pkg:cargo/schemars@0.8.22",
+        "pkg:cargo/semver@1.0.28",
+        "pkg:cargo/serde-untagged@0.1.9",
+        "pkg:cargo/serde@1.0.229",
+        "pkg:cargo/serde_json@1.0.154",
+        "pkg:cargo/serde_with@3.17.0",
+        "pkg:cargo/thiserror@2.0.21",
+        "pkg:cargo/toml@1.1.8%2Bspec-1.1.0",
+        "pkg:cargo/url@2.5.8",
+        "pkg:cargo/urlpattern@0.6.0",
+        "pkg:cargo/uuid@1.26.1",
+        "pkg:cargo/walkdir@2.5.0"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/tauri@2.12.5",
+      "dependsOn": [
+        "pkg:cargo/anyhow@1.0.104",
+        "pkg:cargo/bytes@1.12.1",
+        "pkg:cargo/cookie@0.18.2",
+        "pkg:cargo/dirs@7.0.0",
+        "pkg:cargo/dunce@1.0.5",
+        "pkg:cargo/getrandom@0.3.4",
+        "pkg:cargo/glob@0.3.4",
+        "pkg:cargo/heck@0.5.0",
+        "pkg:cargo/http@1.5.0",
+        "pkg:cargo/libc@0.2.191",
+        "pkg:cargo/log@0.4.34",
+        "pkg:cargo/mime@0.3.17",
+        "pkg:cargo/muda@0.20.0",
+        "pkg:cargo/percent-encoding@2.3.2",
+        "pkg:cargo/plist@1.8.0",
+        "pkg:cargo/raw-window-handle@0.6.2",
+        "pkg:cargo/serde@1.0.229",
+        "pkg:cargo/serde_json@1.0.154",
+        "pkg:cargo/serialize-to-javascript@0.1.2",
+        "pkg:cargo/tauri-runtime-wry@2.12.3",
+        "pkg:cargo/tauri-runtime@2.12.2",
+        "pkg:cargo/tauri-utils@2.10.2",
+        "pkg:cargo/thiserror@2.0.21",
+        "pkg:cargo/tokio@1.54.1",
+        "pkg:cargo/url@2.5.8",
+        "pkg:cargo/webview2-com@0.39.1",
+        "pkg:cargo/window-vibrancy@0.8.1",
+        "pkg:cargo/windows@0.62.2"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/tendril@0.5.1",
+      "dependsOn": [
+        "pkg:cargo/new_debug_unreachable@1.0.6"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/thiserror@2.0.21",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/time-core@0.1.7",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/time@0.3.45",
+      "dependsOn": [
+        "pkg:cargo/deranged@0.5.9",
+        "pkg:cargo/itoa@1.0.18",
+        "pkg:cargo/num-conv@0.1.0",
+        "pkg:cargo/powerfmt@0.2.1",
+        "pkg:cargo/serde_core@1.0.229",
+        "pkg:cargo/time-core@0.1.7"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/tinystr@0.8.5",
+      "dependsOn": [
+        "pkg:cargo/zerovec@0.11.9"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/tokio@1.54.1",
+      "dependsOn": [
+        "pkg:cargo/bytes@1.12.1",
+        "pkg:cargo/libc@0.2.191",
+        "pkg:cargo/pin-project-lite@0.2.17",
+        "pkg:cargo/windows-sys@0.61.2"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/toml@1.1.8%2Bspec-1.1.0",
+      "dependsOn": [
+        "pkg:cargo/indexmap@2.14.2",
+        "pkg:cargo/serde_core@1.0.229",
+        "pkg:cargo/serde_spanned@1.1.2",
+        "pkg:cargo/toml_datetime@1.1.2%2Bspec-1.1.0",
+        "pkg:cargo/toml_parser@1.1.5%2Bspec-1.1.0",
+        "pkg:cargo/toml_writer@1.1.3%2Bspec-1.1.0",
+        "pkg:cargo/winnow@1.0.4"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/toml_datetime@1.1.2%2Bspec-1.1.0",
+      "dependsOn": [
+        "pkg:cargo/serde_core@1.0.229"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/toml_parser@1.1.5%2Bspec-1.1.0",
+      "dependsOn": [
+        "pkg:cargo/winnow@1.0.4"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/toml_writer@1.1.3%2Bspec-1.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/tracing-core@0.1.36",
+      "dependsOn": [
+        "pkg:cargo/once_cell@1.21.4"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/tracing@0.1.44",
+      "dependsOn": [
+        "pkg:cargo/pin-project-lite@0.2.17",
+        "pkg:cargo/tracing-core@0.1.36"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/typeid@1.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/typenum@1.20.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/unicode-ident@1.0.27",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/unicode-segmentation@1.13.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/url@2.5.8",
+      "dependsOn": [
+        "pkg:cargo/form_urlencoded@1.2.2",
+        "pkg:cargo/idna@1.1.0",
+        "pkg:cargo/percent-encoding@2.3.2",
+        "pkg:cargo/serde@1.0.229"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/urlpattern@0.6.0",
+      "dependsOn": [
+        "pkg:cargo/icu_properties@2.1.2",
+        "pkg:cargo/regex@1.13.1",
+        "pkg:cargo/serde@1.0.229",
+        "pkg:cargo/url@2.5.8"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/utf8_iter@1.0.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/uuid@1.26.1",
+      "dependsOn": [
+        "pkg:cargo/getrandom@0.4.3",
+        "pkg:cargo/serde_core@1.0.229"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/verifysign@1.0.1",
+      "dependsOn": [
+        "pkg:cargo/windows-sys@0.61.2"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/walkdir@2.5.0",
+      "dependsOn": [
+        "pkg:cargo/same-file@1.0.6",
+        "pkg:cargo/winapi-util@0.1.11"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/web-time@1.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/web_atoms@0.2.6",
+      "dependsOn": [
+        "pkg:cargo/phf@0.13.1",
+        "pkg:cargo/string_cache@0.9.0"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/webview2-com-sys@0.39.1",
+      "dependsOn": [
+        "pkg:cargo/thiserror@2.0.21",
+        "pkg:cargo/windows-core@0.62.2",
+        "pkg:cargo/windows@0.62.2",
+        "pkg:generic/webview2-loader@1.0.3800.47"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/webview2-com@0.39.1",
+      "dependsOn": [
+        "pkg:cargo/webview2-com-sys@0.39.1",
+        "pkg:cargo/windows-core@0.62.2",
+        "pkg:cargo/windows@0.62.2"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/winapi-util@0.1.11",
+      "dependsOn": [
+        "pkg:cargo/windows-sys@0.61.2"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/window-vibrancy@0.8.1",
+      "dependsOn": [
+        "pkg:cargo/raw-window-handle@0.6.2",
+        "pkg:cargo/windows-sys@0.61.2",
+        "pkg:cargo/windows-version@0.1.7"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/windows-collections@0.3.2",
+      "dependsOn": [
+        "pkg:cargo/windows-core@0.62.2"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/windows-core@0.62.2",
+      "dependsOn": [
+        "pkg:cargo/windows-link@0.2.1",
+        "pkg:cargo/windows-result@0.4.1",
+        "pkg:cargo/windows-strings@0.5.1"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/windows-future@0.3.2",
+      "dependsOn": [
+        "pkg:cargo/windows-core@0.62.2",
+        "pkg:cargo/windows-link@0.2.1",
+        "pkg:cargo/windows-threading@0.2.1"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/windows-link@0.2.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/windows-numerics@0.3.1",
+      "dependsOn": [
+        "pkg:cargo/windows-core@0.62.2",
+        "pkg:cargo/windows-link@0.2.1"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/windows-result@0.4.1",
+      "dependsOn": [
+        "pkg:cargo/windows-link@0.2.1"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/windows-strings@0.5.1",
+      "dependsOn": [
+        "pkg:cargo/windows-link@0.2.1"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/windows-sys@0.61.2",
+      "dependsOn": [
+        "pkg:cargo/windows-link@0.2.1"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/windows-threading@0.2.1",
+      "dependsOn": [
+        "pkg:cargo/windows-link@0.2.1"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/windows-version@0.1.7",
+      "dependsOn": [
+        "pkg:cargo/windows-link@0.2.1"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/windows@0.62.2",
+      "dependsOn": [
+        "pkg:cargo/windows-collections@0.3.2",
+        "pkg:cargo/windows-core@0.62.2",
+        "pkg:cargo/windows-future@0.3.2",
+        "pkg:cargo/windows-numerics@0.3.1"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/winnow@1.0.4",
+      "dependsOn": [
+        "pkg:cargo/memchr@2.8.3"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/winreg@0.56.0",
+      "dependsOn": [
+        "pkg:cargo/cfg-if@1.0.5",
+        "pkg:cargo/windows-sys@0.61.2"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/writeable@0.6.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/wry@0.57.1",
+      "dependsOn": [
+        "pkg:cargo/base64@0.23.1",
+        "pkg:cargo/cookie@0.18.2",
+        "pkg:cargo/crossbeam-channel@0.5.17",
+        "pkg:cargo/dirs@7.0.0",
+        "pkg:cargo/dom_query@0.28.0",
+        "pkg:cargo/dpi@0.1.2",
+        "pkg:cargo/dunce@1.0.5",
+        "pkg:cargo/http@1.5.0",
+        "pkg:cargo/libc@0.2.191",
+        "pkg:cargo/percent-encoding@2.3.2",
+        "pkg:cargo/raw-window-handle@0.6.2",
+        "pkg:cargo/sha2@0.10.9",
+        "pkg:cargo/thiserror@2.0.21",
+        "pkg:cargo/url@2.5.8",
+        "pkg:cargo/webview2-com@0.39.1",
+        "pkg:cargo/windows-core@0.62.2",
+        "pkg:cargo/windows-version@0.1.7",
+        "pkg:cargo/windows@0.62.2"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/yoke@0.8.4",
+      "dependsOn": [
+        "pkg:cargo/stable_deref_trait@1.2.1",
+        "pkg:cargo/zerofrom@0.1.8"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/zerofrom@0.1.8",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:cargo/zerotrie@0.2.5",
+      "dependsOn": [
+        "pkg:cargo/yoke@0.8.4",
+        "pkg:cargo/zerofrom@0.1.8"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/zerovec@0.11.9",
+      "dependsOn": [
+        "pkg:cargo/yoke@0.8.4",
+        "pkg:cargo/zerofrom@0.1.8"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/zmij@1.0.23",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/react-dom@19.3.1",
+      "dependsOn": [
+        "pkg:npm/scheduler@0.28.0"
+      ]
+    }
+  ]
+}

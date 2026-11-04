@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-inspect-process-affinity"
+description = "Enables the inspect_process_affinity command without any pre-configured scope."
+commands.allow = ["inspect_process_affinity"]
+
+[[permission]]
+identifier = "deny-inspect-process-affinity"
+description = "Denies the inspect_process_affinity command without any pre-configured scope."
+commands.deny = ["inspect_process_affinity"]

@@ -1,0 +1,24 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "main-window",
+  "description": "Read-only application commands allowed for the SentinelLite main window.",
+  "windows": ["main"],
+  "permissions": [
+    "allow-get-protection-overview",
+    "allow-get-native-protection-status",
+    "allow-get-sensor-status",
+    "allow-get-sensor-events",
+    "allow-get-storage-status",
+    "allow-query-stored-events",
+    "allow-get-stored-event",
+    "allow-list-sensor-sessions",
+    "allow-analyze-session",
+    "allow-scan-installed-software",
+    "allow-scan-startup-items",
+    "allow-scan-asset-associations",
+    "allow-list-services",
+    "allow-list-scheduled-tasks",
+    "allow-list-processes",
+    "allow-inspect-process-affinity"
+  ]
+}

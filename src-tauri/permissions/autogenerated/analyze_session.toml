@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-analyze-session"
+description = "Enables the analyze_session command without any pre-configured scope."
+commands.allow = ["analyze_session"]
+
+[[permission]]
+identifier = "deny-analyze-session"
+description = "Denies the analyze_session command without any pre-configured scope."
+commands.deny = ["analyze_session"]

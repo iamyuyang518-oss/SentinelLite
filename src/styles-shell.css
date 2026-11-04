@@ -1,0 +1,251 @@
+.app-shell {
+  display: grid;
+  grid-template-columns: 232px minmax(0, 1fr);
+  min-height: 100vh;
+}
+
+.side-rail {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-self: start;
+  height: 100vh;
+  padding: 28px 20px 22px;
+  color: var(--rail-ink);
+  background: var(--rail);
+  border-right: 1px solid #0d1b15;
+}
+
+.rail-brand {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.rail-brand__mark {
+  flex: 0 0 auto;
+  width: 36px;
+  height: 36px;
+}
+
+.rail-brand__name {
+  font-family: var(--display-font);
+  font-size: 1.03rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.rail-brand__tagline {
+  margin-top: 2px;
+  font-size: 0.7rem;
+  color: var(--rail-muted);
+}
+
+.rail-nav {
+  display: grid;
+  gap: 3px;
+}
+
+.rail-nav__item {
+  position: relative;
+  display: flex;
+  gap: 11px;
+  align-items: center;
+  min-height: 42px;
+  padding: 0 11px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  text-align: left;
+  color: var(--rail-muted);
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 1px;
+  transition:
+    color 140ms ease,
+    background-color 140ms ease,
+    border-color 140ms ease;
+}
+
+.rail-nav__item:hover {
+  color: var(--rail-ink);
+  background: rgba(234, 240, 232, 0.04);
+}
+
+.rail-nav__item.is-active {
+  color: var(--rail-ink);
+  background: rgba(234, 240, 232, 0.065);
+  border-color: rgba(234, 240, 232, 0.08);
+}
+
+.rail-nav__item.is-active::before {
+  position: absolute;
+  top: 9px;
+  bottom: 9px;
+  left: -1px;
+  width: 2px;
+  content: "";
+  background: var(--accent);
+}
+
+.rail-nav__glyph {
+  width: 7px;
+  height: 7px;
+  border: 1px solid currentColor;
+  transform: rotate(45deg);
+}
+
+.rail-nav__glyph--square {
+  border-radius: 1px;
+  transform: none;
+}
+
+.rail-nav__item.is-active .rail-nav__glyph {
+  color: var(--accent);
+  background: var(--accent);
+}
+
+.rail-future {
+  padding-top: 20px;
+  margin-top: auto;
+  border-top: 1px solid rgba(234, 240, 232, 0.11);
+}
+
+.rail-future p {
+  margin-bottom: 11px;
+  font-family: var(--mono-font);
+  font-size: 0.66rem;
+  color: var(--rail-muted);
+}
+
+.rail-future span {
+  display: block;
+  font-size: 0.7rem;
+  line-height: 1.7;
+  color: #7f9086;
+}
+
+.rail-footer {
+  padding-top: 16px;
+  border-top: 1px solid rgba(234, 240, 232, 0.11);
+}
+
+.rail-footer p {
+  font-family: var(--mono-font);
+  font-size: 0.64rem;
+  line-height: 1.6;
+  color: #7f9086;
+}
+
+.rail-mode {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  margin-bottom: 5px !important;
+  color: var(--rail-ink) !important;
+}
+
+.rail-mode span {
+  width: 5px;
+  height: 5px;
+  background: var(--accent);
+}
+
+.workspace {
+  min-width: 0;
+}
+
+.read-only-ribbon {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  min-height: 34px;
+  padding: 0 48px;
+  font-size: 0.72rem;
+  color: var(--ink-soft);
+  background: var(--canvas-deep);
+  border-bottom: 1px solid var(--line);
+}
+
+.read-only-ribbon__dot {
+  width: 5px;
+  height: 5px;
+  background: var(--unknown);
+}
+
+.main-content {
+  min-width: 0;
+}
+
+.skip-link {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 100;
+  padding: 8px 12px;
+  font-size: 0.8rem;
+  color: var(--rail-ink);
+  background: var(--rail);
+  border: 1px solid var(--rail-muted);
+  transform: translateY(-160%);
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+@media (max-width: 900px) {
+  .app-shell {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .side-rail {
+    position: static;
+    height: auto;
+    padding: 16px 20px;
+    gap: 18px;
+  }
+
+  .rail-brand__mark {
+    width: 30px;
+    height: 30px;
+  }
+
+  .rail-nav {
+    display: flex;
+    gap: 4px;
+  }
+
+  .rail-nav__item {
+    min-height: 36px;
+  }
+
+  .rail-future,
+  .rail-footer {
+    display: none;
+  }
+
+  .read-only-ribbon {
+    padding: 0 24px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .app-shell {
+    grid-template-columns: 260px minmax(0, 1fr);
+  }
+
+  .side-rail {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
+
+.rail-nav__glyph--events {
+  border-radius: 50%;
+  transform: none;
+}

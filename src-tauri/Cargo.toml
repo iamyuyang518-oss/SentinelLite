@@ -1,0 +1,29 @@
+[package]
+name = "sentinel-lite"
+version = "0.1.0"
+description = "SentinelLite local-first Windows security inspection preview"
+authors = ["SentinelLite contributors"]
+edition = "2024"
+rust-version = "1.85"
+license = "MIT"
+publish = false
+
+[lib]
+name = "sentinel_lite_lib"
+crate-type = ["rlib"]
+
+[build-dependencies]
+tauri-build.workspace = true
+
+[dependencies]
+sentinel-core = { path = "../crates/sentinel-core" }
+sentinel-detection = { path = "../crates/sentinel-detection" }
+sentinel-events = { path = "../crates/sentinel-events" }
+sentinel-ipc = { path = "../crates/sentinel-ipc" }
+sentinel-storage = { path = "../crates/sentinel-storage" }
+serde.workspace = true
+tauri.workspace = true
+thiserror.workspace = true
+
+[dev-dependencies]
+serde_json.workspace = true

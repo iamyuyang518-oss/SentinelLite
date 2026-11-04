@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-scan-startup-items"
+description = "Enables the scan_startup_items command without any pre-configured scope."
+commands.allow = ["scan_startup_items"]
+
+[[permission]]
+identifier = "deny-scan-startup-items"
+description = "Denies the scan_startup_items command without any pre-configured scope."
+commands.deny = ["scan_startup_items"]

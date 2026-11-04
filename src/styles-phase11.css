@@ -1,0 +1,112 @@
+.truncated-notice {
+  padding: 14px 16px;
+  margin-bottom: 14px;
+  background: rgba(242, 229, 202, 0.64);
+  border: 1px solid rgba(179, 122, 30, 0.5);
+  border-left: 3px solid var(--accent);
+}
+
+.truncated-notice strong {
+  display: block;
+  font-family: var(--display-font);
+  font-size: 0.84rem;
+}
+
+.truncated-notice p {
+  margin-top: 4px;
+  font-size: 0.78rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+
+.list-pagination {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 12px;
+  margin-top: 10px;
+  border-top: 1px solid var(--line);
+}
+
+.list-pagination > span {
+  margin-right: auto;
+  font-family: var(--mono-font);
+  font-size: 0.7rem;
+  color: var(--ink-faint);
+}
+
+.classification-note {
+  color: var(--ink-soft);
+  font-family: var(--sans-font, inherit);
+}
+
+.component-notice {
+  padding: 11px 13px;
+  margin-bottom: 15px;
+  background: rgba(242, 229, 202, 0.42);
+  border-left: 2px solid var(--accent);
+}
+
+.component-notice strong {
+  display: block;
+  font-family: var(--display-font);
+  font-size: 0.82rem;
+}
+
+.component-notice p {
+  margin-top: 4px;
+  font-size: 0.78rem;
+  line-height: 1.62;
+  color: var(--ink-soft);
+}
+
+.scope-verdict {
+  display: grid;
+  gap: 5px;
+  justify-items: start;
+  padding: 8px 10px;
+  background: var(--surface-muted);
+  border: 1px solid var(--line);
+}
+
+.scope-verdict > span:first-child {
+  font-size: 0.66rem;
+  color: var(--ink-faint);
+}
+
+.scope-verdict p {
+  font-size: 0.76rem;
+  line-height: 1.55;
+  color: var(--ink-soft);
+}
+
+.detail-card__header .scope-verdict {
+  min-width: 150px;
+}
+
+.inspection-block > .scope-verdict {
+  margin-bottom: 12px;
+}
+
+.risk-scope-label {
+  font-family: var(--mono-font);
+  font-size: 0.64rem;
+  color: var(--ink-faint);
+}
+
+.file-evidence {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid var(--line);
+}
+
+@media (max-width: 900px) {
+  .detail-card__header {
+    flex-wrap: wrap;
+  }
+
+  .list-pagination {
+    flex-wrap: wrap;
+  }
+}

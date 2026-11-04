@@ -1,0 +1,131 @@
+/*
+ * Phase 3 slice 4: read-only software and component inventory.
+ * Source cards and observation states; uninstall command text is never displayed.
+ */
+
+.software-sources {
+  margin: 22px 0 18px;
+}
+
+.software-sources__header h3 {
+  font-size: 0.95rem;
+}
+
+.software-sources__header p {
+  margin-top: 4px;
+  font-size: 0.76rem;
+  line-height: 1.55;
+  color: var(--ink-faint);
+}
+
+.software-source-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.software-source-card {
+  min-width: 0;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  background: var(--panel-sunken, rgba(255, 255, 255, 0.015));
+}
+
+.software-source-card header {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.software-source-card header strong {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.software-source-card p {
+  margin-top: 5px;
+  font-size: 0.72rem;
+  line-height: 1.55;
+  color: var(--ink-faint);
+}
+
+.software-source-card p.mono-text {
+  color: var(--ink-dim);
+}
+
+.software-table {
+  width: 100%;
+  min-width: 500px;
+  table-layout: fixed;
+}
+
+.software-table th:nth-child(1) {
+  width: 40%;
+}
+
+.software-table th:nth-child(2) {
+  width: 16%;
+}
+
+.software-table th:nth-child(3) {
+  width: 30%;
+}
+
+.software-table th:nth-child(4) {
+  width: 14%;
+}
+
+.software-item-issues,
+.software-static-clue {
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
+.software-item-issues h4,
+.software-static-clue h4 {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.software-item-issues ul {
+  display: grid;
+  gap: 8px;
+  padding: 0;
+  margin: 9px 0 0;
+  list-style: none;
+}
+
+.software-item-issues li {
+  display: grid;
+  gap: 3px;
+  font-size: 0.74rem;
+  line-height: 1.55;
+  color: var(--ink-dim);
+}
+
+.software-item-issues code {
+  font-family: var(--mono-font);
+  font-size: 0.68rem;
+  color: var(--unknown);
+}
+
+.software-static-clue p {
+  margin-top: 7px;
+  font-size: 0.76rem;
+  line-height: 1.6;
+  color: var(--ink-dim);
+}
+
+.software-static-clue .fine-print {
+  font-size: 0.7rem;
+  color: var(--ink-faint);
+}
+
+@media (max-width: 820px) {
+  .software-source-grid {
+    grid-template-columns: 1fr;
+  }
+}

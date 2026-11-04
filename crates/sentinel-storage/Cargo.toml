@@ -1,0 +1,25 @@
+[package]
+name = "sentinel-storage"
+description = "Local SQLite persistence and ingestion for SentinelLite process telemetry"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+publish.workspace = true
+
+[lib]
+name = "sentinel_storage"
+path = "src/lib.rs"
+
+[dev-dependencies]
+sentinel-detection = { path = "../sentinel-detection" }
+
+[dependencies]
+sentinel-events = { path = "../sentinel-events" }
+sentinel-ipc = { path = "../sentinel-ipc" }
+chrono.workspace = true
+rusqlite.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true

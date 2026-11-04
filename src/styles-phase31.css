@@ -1,0 +1,166 @@
+/*
+ * Phase 3 slice 2: read-only service and scheduled-task inventory.
+ * Reuses the existing scan/table language; this is inventory, not a risk verdict.
+ */
+
+.service-task-panel .scan-panel__header {
+  align-items: flex-start;
+}
+
+.inventory-stack {
+  display: grid;
+  gap: 28px;
+  margin-top: 22px;
+}
+
+.inventory-section {
+  padding-top: 22px;
+  border-top: 1px solid var(--line);
+}
+
+.inventory-section__header {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.inventory-section__header h3 {
+  font-size: 1rem;
+}
+
+.inventory-section__header p {
+  max-width: 72ch;
+  margin-top: 5px;
+  font-size: 0.78rem;
+  line-height: 1.6;
+  color: var(--ink-faint);
+}
+
+.inventory-idle {
+  padding: 14px 0;
+  font-size: 0.82rem;
+  line-height: 1.6;
+  color: var(--ink-faint);
+}
+
+.inventory-badge {
+  display: inline-flex;
+  padding: 3px 8px;
+  font-family: var(--mono-font);
+  font-size: 0.64rem;
+  line-height: 1.4;
+  color: var(--ink-faint);
+  border: 1px solid currentColor;
+  white-space: nowrap;
+}
+
+.inventory-badge--observed {
+  color: var(--clean);
+}
+
+.inventory-badge--partial {
+  color: var(--caution);
+}
+
+.inventory-badge--unavailable,
+.inventory-badge--accessDenied,
+.inventory-badge--error {
+  color: var(--unknown);
+}
+
+.inventory-table {
+  min-width: 760px;
+}
+
+.inventory-table td {
+  padding: 10px 12px;
+}
+
+.inventory-table th:nth-child(1) {
+  width: 25%;
+}
+
+.inventory-table th:nth-child(2) {
+  width: 15%;
+}
+
+.inventory-table th:nth-child(3) {
+  width: 17%;
+}
+
+.inventory-table th:nth-child(4) {
+  width: 28%;
+}
+
+.inventory-table th:nth-child(5) {
+  width: 15%;
+}
+
+.inventory-table--tasks {
+  min-width: 900px;
+}
+
+.inventory-table--tasks th:nth-child(1) {
+  width: 23%;
+}
+
+.inventory-table--tasks th:nth-child(2) {
+  width: 13%;
+}
+
+.inventory-table--tasks th:nth-child(3) {
+  width: 18%;
+}
+
+.inventory-table--tasks th:nth-child(4) {
+  width: 31%;
+}
+
+.inventory-table--tasks th:nth-child(5) {
+  width: 15%;
+}
+
+.inventory-actions {
+  display: grid;
+  gap: 6px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.inventory-actions li {
+  display: grid;
+  gap: 2px;
+}
+
+.inventory-actions li > span:first-child {
+  font-size: 0.72rem;
+  color: var(--ink-faint);
+}
+
+.inventory-actions-more {
+  margin-top: 6px;
+}
+
+.inventory-actions-more summary {
+  font-family: var(--mono-font);
+  font-size: 0.66rem;
+  color: var(--ink-faint);
+  cursor: pointer;
+}
+
+.inventory-actions-more .inventory-actions {
+  margin-top: 6px;
+}
+
+.cell-note--warning {
+  color: var(--unknown);
+}
+
+@media (max-width: 820px) {
+  .inventory-section__header {
+    flex-direction: column;
+  }
+}
